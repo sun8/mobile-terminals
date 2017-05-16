@@ -1,0 +1,645 @@
+html {
+  height: 100%;
+  overflow: hidden;
+}
+body {
+  height: 100%;
+  overflow: auto;
+}
+.width16 {
+  width: 16rem;
+  box-sizing: border-box;
+}
+.comment {
+  padding-bottom: 0.5rem;
+ 	background-color: #b8d9be ;
+}
+/*------------头部导航绝对定位---------navigation----------------*/
+.navigation {
+  height: 1.825rem;
+  background-color: #fabc09;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.navigation a {
+  width: 1.95rem;
+  height: 1.825rem;
+  background: url(../img/sort.png) no-repeat 0.575rem 0.25rem;
+  background-size: 0.825rem 1.325rem;
+}
+.navigation .shopping {
+  width: 2.05rem;
+  background: url(../img/shopping.png) no-repeat 0.4rem 0.2rem;
+  background-size: 1.225rem 1.425rem;
+}
+.search {
+  width: 12rem;
+  padding-top: 0.35rem;
+}
+.tex {
+  width: 12rem;
+  height: 1.25rem;
+  box-sizing: border-box;
+  font: 0.5rem/1.2rem "微软雅黑";
+  color: #a7a6a9;
+  text-indent: 1.275rem;
+  border-radius: 0.25rem;
+  background: #d5dba9 url(../img/search.png) no-repeat 0.4rem 0.25rem;
+  background-size: 0.55rem 0.6rem;
+}
+.contentbox{
+	margin-top: 1.825rem;
+	position: relative;
+	z-index: -3;
+}
+/*----------轮播图及广告---------banner-----ad----------*/
+.banner {
+  height: 6.85rem;
+ 
+}
+.ad {
+  height: 4.35rem;
+  border-bottom: 0.025rem solid #acd3b3;
+}
+/*-------------------main图文并茂----------------*/
+.main {
+  height: 6.675rem;
+  box-sizing: border-box;
+  border-bottom: 0.05rem solid #b9d9bf;
+  background-color: #cce3d1;
+  padding-top: 0.475rem;
+}
+.main_product {
+  width: 20%;
+  height: 3.05rem;
+  float: left;
+}
+.main_product_picture {
+  width: 1.75rem;
+  height: 1.75rem;
+  padding-left: 0.725rem;
+}
+.product_picture {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.main_name {
+  height: 1.05rem;
+  font: 0.55rem/1.05rem "微软雅黑";
+  color: #74777b;
+  text-align: center;
+}
+/*---------------header苏宁头条-----------------*/
+.head {
+  height: 2.225rem;
+  border-top: 0.05rem solid #b9d9bf;
+  background-color: #cce3d1;
+  padding-top: 0.375rem;
+  box-sizing: border-box;
+}
+.head_title {
+  width: 3.475rem;
+  height: 1.325rem;
+  background: url(../img/title.png) no-repeat left 0.175rem;
+  background-size: 3.1rem 1.05rem;
+  font-size: 0;
+}
+.shu {
+  width: 0.025rem;
+  height: 0.875rem;
+  background-color: #97c1a0;
+  margin: 0.275rem 0.775rem 0 0;
+}
+.head_list {
+  height: 1.35rem;
+  font: 0.55rem/0.55 "微软雅黑";
+  color: #1f1c1e;
+}
+.head_list li {
+  height: 0.675rem;
+}
+.round {
+  display: inline-block;
+  width: 0.2rem;
+  height: 0.2rem;
+  background-color: #ffc001;
+  border-radius: 50%;
+  margin: 0.3rem 0.225rem 0 0;
+}
+.head_last {
+  color: #9a9a9a;
+}
+/*-------------尖货爆款---img----------*/
+.hot {
+  height: 20.05rem;
+  box-sizing: border-box;
+  padding: 0.375rem 0 0.5rem 0;
+  background-color: #b8d9be;
+}
+.hot_first {
+  height: 6.2rem;
+  margin-bottom: 0.05rem;
+  border-top: 0.1rem solid #bfcfa9;
+}
+.hot_first_left {
+  width: 7.95rem;
+  height: 6.175rem;
+  margin-right: 0.025rem;
+}
+.hot1 {
+  width: 7.95rem;
+  height: 6.175rem;
+}
+.hot_first_right {
+  width: 8.025rem;
+  height: 6.175rem;
+}
+.hot_first_right a {
+  display: block;
+}
+.margin1 {
+  margin-bottom: 0.025rem;
+}
+.hot2 {
+  width: 7.95rem;
+  height: 3.075rem;
+}
+.hot_cont a {
+  float: left;
+  margin: 0 0.05rem 0.05rem 0;
+}
+.hot_picture {
+  width: 3.95rem;
+  height: 6.4rem;
+}
+/*---------------掌上宝指南guild-----------*/
+.guild {
+  height: 7.175rem;
+  box-sizing: border-box;
+  border-top: 0.325rem solid #ccdaca;
+  background-color: #cce3d1;
+  padding: 0 0.375rem 0.475rem 0.4rem;
+  overflow: hidden;
+}
+.guild_head {
+  height: 1.35rem;
+}
+.guild_head h3 {
+  float: left;
+  width: 3.275rem;
+  height: 1.35rem;
+  background: url(../img/guild_head.png) no-repeat left top;
+  background-size: 2.925rem 1.05rem;
+  font-size: 0;
+}
+.guild_title {
+  padding-top: 0.375rem;
+  height: 0.65rem;
+  width: 4.5rem;
+}
+.guild_title span {
+  float: left;
+}
+.guild_title a {
+  float: left;
+  width: 0.5rem;
+  height: 0.5rem;
+  border: 0.05rem solid #809575;
+  color: #383939;
+  text-align: center;
+  font: bold 0.4rem/0.55rem "微软雅黑";
+}
+.guild_title .second {
+  border-color: #ff3639 ;
+  color: #ff3639;
+}
+.time {
+  height: 0.65rem;
+  font: bold 0.45rem/0.65rem "微软雅黑";
+  color: #fa4b4b;
+  margin-right: 0.125rem;
+}
+.colon {
+  width: 0.075rem;
+  height: 0.3rem;
+  background-image: url(../img/colon.png);
+  background-size: 0.075rem 0.3rem;
+  margin: 0.15rem 0.2rem;
+}
+.guild_a {
+  margin-top: 11px;
+}
+.guild_a span {
+  float: left;
+  height: 0.775rem;
+  width: 2.6rem;
+  background-color: #ffc001;
+  text-align: center;
+  font: 0.45rem/0.775rem "微软雅黑";
+  color: #486e23;
+  border-radius: 0.25rem;
+}
+.guild_a i {
+  float: left;
+  width: 0.35rem;
+  height: 0.6rem;
+  background: url(../img/jian.png) no-repeat;
+  background-size: 0.35rem 0.6rem;
+  margin: 0.125rem 0 0 0.075rem;
+}
+.guild_cont {
+  width: 200%;
+}
+.guild_cont_first {
+  width: 4.75rem;
+  height: 5.025rem;
+ 	background-color: #dddddd;
+  margin-right: 0.175rem;
+}
+.guild_picture_box {
+  width: 4.65rem;
+  height: 3.55rem;
+  border: 0.05rem solid #b3ceb3;
+  border-bottom: 0;
+}
+.guild_picture {
+  width: 4.65rem;
+  height: 3.55rem;
+}
+.guild_sub {
+  position: relative;
+}
+.guild_price {
+  height: 0.7rem;
+  font: 0.45rem/0.7rem "微软雅黑";
+  color: #dc0c0c;
+  text-indent: 0.525rem;
+}
+.guild_price_delete {
+  height: 0.625rem;
+  font: 0.325rem/0.7rem "微软雅黑";
+  color: #8e8e8e;
+  text-indent: 0.425rem;
+}
+.discount {
+  position: absolute;
+  top: -0.15rem;
+  right: 0.075rem;
+  width: 1.55rem;
+  height: 1.625rem;
+  box-sizing: border-box;
+  padding: 0.275rem 0 0 0.175rem;
+  background: url(../img/discount.png) no-repeat;
+  background-size: 1.55rem 1.625rem;
+  font: 0.45rem/0.65rem arial;
+  color: #fff;
+}
+.discount span {
+  display: inline-block;
+  font: 0.6rem/0.75rem arial;
+}
+/*--------------手机phone---特卖--------*/
+.sales {
+  height: 6.925rem;
+}
+.sales a {
+  float: left;
+}
+.sales .sales_phone {
+  margin-right: 0.05rem;
+}
+.sales img {
+  width: 7.95rem;
+  height: 6.425rem;
+}
+/*----------大聚惠--精编---privilege-----*/
+.privilege {
+  height: 10.325rem;
+}
+.privilege_title {
+  height: 1.25rem;
+  font: 0.6rem/1.25rem "微软雅黑";
+  color: #fe2b4a;
+  text-align: center;
+  margin-bottom: 0.05rem;
+  background-color: #fff;
+}
+.privilege_left {
+  width: 7.95rem;
+  height: 8.55rem;
+  margin-right: 0.05rem;
+}
+.privilege_left_picture {
+  width: 7.95rem;
+  height: 8.55rem;
+}
+.privilege_right {
+  width: 7.95rem;
+}
+.privilege_first {
+  width: 7.95rem;
+  height: 3.075rem;
+  margin-bottom: 0.025rem;
+}
+.privilege_last {
+  width: 7.95rem;
+}
+.privilege_last a {
+  float: left;
+}
+.privilege_last_picture {
+  width: 3.95rem;
+  height: 5.4rem;
+}
+.margin_r1 {
+  margin-right: 0.025rem;
+}
+/*-----------每日一抢----everyday-------*/
+.everyday {
+  height: 4.8rem;
+}
+.everyday_picture {
+  width: 16rem;
+  height: 4.3rem;
+}
+/*----------特色--好货--characteristic-----*/
+.characteristic {
+  height: 17.25rem;
+}
+.characteristic a {
+  display: block;
+}
+.chara_box {
+  width: 7.95rem;
+  margin-right: 0.05rem;
+}
+.char_color {
+  color: #7ed24c;
+}
+.char_left {
+  width: 7.95rem;
+  height: 6.175rem;
+  margin-bottom: 0.05rem;
+}
+.char_left_picture {
+  width: 7.95rem;
+  height: 3.075rem;
+  margin-bottom: 0.05rem;
+}
+/*----------拜托了妈妈--mom-----*/
+.mom {
+  height: 4.75rem;
+}
+.mom_picture {
+  width: 16rem;
+  height: 4.275rem;
+}
+/*----------热门市场hot_market-----*/
+.hot_market {
+  height: 30.5rem;
+}
+.hot_market a {
+  float: left;
+}
+.mark_color {
+  color: #57dae6;
+}
+.hot_market_first {
+  height: 6.425rem;
+  margin-bottom: 0.025rem;
+}
+.market_picture {
+  width: 7.95rem;
+  height: 6.425rem;
+  margin-right: 0.05rem;
+}
+.market_first {
+  height: 5.525rem;
+  margin-bottom: 0.025rem;
+}
+.market_first_picture {
+  width: 5.25rem;
+  height: 5.525rem;
+  margin-right: 0.05rem;
+}
+/*----------品牌荟萃brand-----*/
+.brand {
+  height: 7.925rem;
+}
+.brand a {
+  float: left;
+}
+.brand_color {
+  color: #7459f9;
+}
+.brand_cont {
+  height: 6.2rem;
+}
+.brand_cont_first {
+  width: 7.95rem;
+  height: 6.2rem;
+  margin-right: 0.05rem;
+}
+.brand_cont_one {
+  width: 3.95rem;
+}
+/*----------苏宁金融finance-----*/
+.finance {
+  height: 7.95rem;
+}
+.finance_color {
+  color: #469afd;
+}
+.finance_left,
+.finance_left_picture {
+  height: 6.175rem;
+}
+/*----------好店推荐goodstore-----*/
+.goodstore {
+  height: 10.175rem;
+  overflow: hidden;
+}
+.goodstore_color {
+  color: #8f4510;
+}
+.goodstore_cont {
+  padding: 0.5rem 0 0 0.35rem;
+  background-color: #cce3d1;
+  width: 200%;
+}
+.store_cont {
+  width: 7.35rem;
+  margin-right: 0.475rem;
+}
+.store_cont_first {
+  height: 1.7rem;
+  margin-bottom: 0.5rem;
+  padding-left: 2.125rem;
+  background: url(../img/daka.png) no-repeat left top;
+  background-size: 1.7rem 1.7rem;
+}
+.store_cont_p {
+  height: 0.75rem;
+  font: 0.5rem/0.75rem "微软雅黑";
+  color: #2d2d2d;
+}
+.store_cont_p1 {
+  height: 0.95rem;
+  font: 0.5rem/0.95rem "微软雅黑";
+  color: #928f92;
+}
+.store_cont_tu {
+  width: 7.35rem;
+  height: 4.925rem;
+}
+.store_cont_tu1 {
+  width: 4.8rem;
+  height: 4.775rem;
+  border: 0.05rem solid #a4c2a1;
+  margin-right: 0.025rem;
+}
+.store_cont_ri {
+  width: 2.425rem;
+}
+.store_cont_ri a {
+  display: block;
+}
+.store_cont_ri1 {
+  width: 2.325rem;
+  height: 2.3rem;
+  border: 0.05rem solid #a4c2a1;
+  margin-bottom: 0.075rem;
+}
+.store_cont_one {
+  background-image: url(../img/dress.png);
+  background-size: 1.7rem 1.7rem;
+}
+.slide {
+  height: 0.725rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  background-color: #cce3d1;
+}
+.slide span {
+  display: inline-block;
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 50%;
+  background-color: #a3c9ab;
+  margin-left: 0.15rem;
+}
+.slide .slide_first {
+  margin-left: 0;
+  background-color: #ffbf00;
+}
+/*----------------猜你喜欢--like-----------*/
+.like {
+  background-color: #b8d9be;
+  padding: 0.625rem 0 0 0.375rem;
+}
+.field {
+  border-top: 0.075rem solid #aec8ab;
+  width: 15.2rem;
+  margin-bottom: 0.425rem;
+  text-align: center;
+}
+.youlike {
+  width: 2.8rem;
+  height: 0.85rem;
+  font: 0.7rem/0.75rem "微软雅黑";
+  color: #34611c;
+  padding: 0 0.45rem 0 1.35rem;
+  background: url(../img/youlike.png) no-repeat 0.375rem top;
+  background-size: 0.875rem 0.85rem;
+}
+.like_content {
+  width: 7.45rem;
+  height: 10.35rem;
+  margin: 0 0.35rem 0.375rem 0;
+  background-color: #cce3d1;
+}
+.like_dt {
+  width: 7.45rem;
+  height: 7.425rem;
+}
+.like_dd {
+  padding: 0.075rem 0 0.4rem 0.175rem;
+}
+.like_p {
+  height: 1.6rem;
+  font: 0.5rem/0.8rem "微软雅黑";
+  color: #060207;
+}
+.like_pirce {
+  height: 0.875rem;
+  font: 0.5rem/0.875rem "微软雅黑";
+  color: #e50204;
+}
+/*-----------------下载download-------------*/
+.download {
+  height: 3.225rem;
+  background-color: #fe6155;
+  border-bottom: 0.5rem solid #b8d9be;
+  padding: 0.775rem 1.1rem 0.725rem 1.3rem;
+}
+.down {
+  height: 1.725rem;
+  background: url(../img/down.png) no-repeat left top;
+  background-size: 1.725rem 1.725rem;
+  padding-left: 2.25rem;
+}
+.client {
+  height: 0.925rem;
+  font: 0.65rem/0.925rem "微软雅黑";
+  color: #fff5ed;
+}
+.client_in {
+  height: 0.55rem;
+  font: 0.55rem/0.55rem "微软雅黑";
+  color: #ffc9c8;
+}
+.imddown {
+  width: 4.15rem;
+  height: 1.25rem;
+  margin-top: 0.225rem;
+  border: 0.05rem solid #ffffff;
+  box-sizing: border-box;
+  padding-left: 1.05rem;
+  background: url(../img/imddown.png) no-repeat 0.25rem 0.125rem;
+  background-size: 0.55rem 0.9rem;
+  font: 0.65rem/1.15rem "微软雅黑";
+  color: #fde3d3;
+  border-radius: 0.225rem;
+}
+/*----------客户端工具条toolbar-------*/
+.toolbar {
+  height: 4.625rem;
+  background-color: #cbe3d1;
+  padding-top: 0.4rem;
+}
+.service {
+  height: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+.service a {
+  float: left;
+  height: 1.1rem;
+  padding: 0 0.85rem;
+  font: 0.55rem/1.1rem "微软雅黑";
+  color: #212123;
+}
+.service span {
+  float: left;
+  width: 0.05rem;
+  height: 0.625rem;
+  background-color: #dddddd;
+  margin-top: 0.35rem;
+}
+.copyright {
+  height: 1rem;
+  font: 0.5rem/1rem "微软雅黑";
+  color: #8e8f90;
+  text-align: center;
+}
